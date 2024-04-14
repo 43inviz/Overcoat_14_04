@@ -14,7 +14,7 @@ public:
 	void show();
 
 	bool operator==(const Overcoat& coat);
-	Overcoat operator=(const Overcoat& cloth);
+	void operator=(const Overcoat& cloth);
 	int operator>(const Overcoat& cloth);
 	
 
