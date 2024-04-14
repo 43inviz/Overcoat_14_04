@@ -1,0 +1,5 @@
+﻿  Overcoat.cpp
+C:\Users\User\Desktop\projects_c++\HW_OOP\HW_OVERCOAT_13_04\Overcoat.cpp(11,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\projects_c++\HW_OOP\HW_OVERCOAT_13_04\Overcoat.cpp(24,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\projects_c++\HW_OOP\HW_OVERCOAT_13_04\Overcoat.cpp(59,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  HW_OVERCOAT_13_04.vcxproj -> C:\Users\User\Desktop\projects_c++\HW_OOP\x64\Debug\HW_OVERCOAT_13_04.exe
