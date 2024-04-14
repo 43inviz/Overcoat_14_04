@@ -52,16 +52,19 @@ bool Overcoat::operator==(const Overcoat& coat)
 	
 }
 
-void Overcoat::operator=(const Overcoat& cloth)
+Overcoat Overcoat::operator=(const Overcoat& cloth)
 {
-	this->cost = cloth.cost;
+	Overcoat clth;
+	clth.cost = cloth.cost;
 
 	int size = strlen(cloth.type);
-	this->type = new char[size + 1];
-	this->type[size] = '\0';
+	clth.type = new char[size + 1];
+	clth.type[size] = '\0';
 	for (int i = 0; i < size; i++) {
-		this->type[i] = cloth.type[i];
+		clth.type[i] = cloth.type[i];
 	}
+
+	return clth;
 }
 
 int  Overcoat::operator>(const Overcoat& cloth)
